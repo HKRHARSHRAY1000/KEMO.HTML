@@ -1,0 +1,362 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-decoration: none;    
+}
+
+
+/* header section */
+header{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    /* object-fit: cover; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+
+}
+
+.nav a{
+    color: #fff;
+}
+
+.nav-bar{
+    height: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    /* justify-content: space-evenly; */
+}
+
+.logo{
+    margin-top: 5rem;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    
+}
+
+.img1{
+    height: 6rem;
+    width: 30rem;
+}
+
+.pera{
+    /* height: 60px;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+/* card section */
+.cards{
+   
+    margin-top: 2rem;
+    height: 500px ;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.card1{
+    height: 400px;
+    width: 400px;
+    border: 1px solid wheat;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+    display: wrap;
+}
+
+.card1:hover{
+    box-shadow: 1px 1px 1px 1px;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.card-img1{
+    height: 300px;
+    width: 400px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+ 
+.info{
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+    
+}
+
+.info h3{
+    opacity: 0.85;
+}
+
+.clocation{
+    height: 100px;
+    width: 80%;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.clocation p{
+    font-size: 20px;
+}
+
+.clocation h1{
+    font-size: 3rem;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.box{
+    margin-top: 3rem;
+    height: 500px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box1{
+    margin-left: 1rem;
+    height: 400px;
+    width: 300px;
+    background-image: url(https://b.zmtcdn.com/data/pictures/6/20958306/00095cb140589f03cd6df9bcfa60d0ca_featured_v2.jpg\ );
+    background-size: cover;
+}
+
+.h2p{
+    color: #fff;
+    margin-top: 20rem;
+    margin-left: 1rem;
+  
+}
+
+
+.box2{
+    margin-left: 1rem;
+    height: 400px;
+    width: 300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNsEpBlYmtatph_uabAUjVvdv9lFOiJi5m08ItNGwbntG38dirbBehiz0CVlbIrVQgKJk&usqp=CAU);
+    background-size: cover;
+}
+
+
+.box3{
+    margin-left: 1rem;
+    height: 400px;
+    width: 300px;
+    background-image: url(https://www.whatsitis.com/wp-content/uploads/2018/09/6D8C5A5D-1EE9-4018-8836-2509821B5B08.jpeg);
+    background-size: cover;
+}
+
+
+.box4{
+    margin-left: 1rem;
+    height: 400px;
+    width: 300px;
+    background-image: url(https://b.zmtcdn.com/data/pictures/7/18611657/7a6e5d93548108ce2166071d1ca7fe2f_featured_v2.jpg);
+    background-size: cover;
+}
+
+/* section 4 */
+
+.title{
+    height: 100px;
+    width: 80%;
+    /* border: 1px solid black; */
+   
+}
+
+.p{
+    margin: 0px;
+    color: black;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.dives{
+  
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Okra, Helvetica, sans-serif;
+    
+   
+}
+
+.div1{
+    height: 75px;
+    width: 28%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+ 
+   
+}
+
+.div1 h5{
+    margin-left: 1rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    opacity: 0.7;
+
+}
+
+.div1 p{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+    color: rgb(54, 54, 54);
+}
+
+.felx{
+    display: flex;
+}
+
+.phone{
+    margin-top: 5rem;
+    margin-left: 7.5rem;
+    display: flex;
+     
+}
+
+
+.form h1{
+    font-size: 3rem;
+    line-height: 1rem;
+    
+}
+
+.form p{
+    opacity: 0.8;
+    font-size: 1.5rem;
+}
+
+.button{
+    height: 50px;
+    width: 30%;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.input{
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.image-phone{
+    height: 50px;
+    width: 150px;
+}
+
+.font{
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+
+.explor-opaction{
+    height: 60px;
+    width: 80%;
+    position: relative;
+    font-size: 3rem;
+    opacity: 0.8;
+   
+}
+
+.dropdown{
+    margin-top: 1.5rem;
+    height: 70px;
+    width: 80%;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 0.8rem;
+   
+ 
+
+}
+
+.top5{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    font-size: 2rem;
+    line-height: 26px;
+}
+
+
+.logo2{
+    margin-top: 7.5rem;
+    height: 60px; 
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  
+  
+}
+.n{
+    display: flex;
+   
+}
+
+.india{
+    height: 60px;
+    width:  60%;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2rem;
+   border-radius: 10px;
+    border: 1px solid  gray;
+    display: flex; 
+}
+.language{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+} 
+
+
+.page{
+    margin-top: 3rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+li{
+    list-style: none;
+    opacity: 0.7;
+}
+
+.list1{
+    margin-top: 3rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    
+   
+}
+
+.solelmedia{
+    margin-top: 3rem;
+    line-height: 1.5rem;
+}
